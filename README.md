@@ -4,7 +4,8 @@
 ![Laucher pic](http://synapse.zeitgeist-project.com/wiki/images/3/3a/Synapse-main.png)
 
 ## Install
-The `config.json` and `*.xml` opensearch files go into `~/.config/synapse`
+* The `config.json` and `*.xml` opensearch files go into `~/.config/synapse`
+* Restart
 
 ## Usage
 1. Open Synapse
