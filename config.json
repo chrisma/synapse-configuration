@@ -1,0 +1,35 @@
+{
+  "ui" : {
+    "global" : {
+      "ui-type" : "default",
+      "show-indicator" : false
+    }
+  },
+  "data-sink" : {
+    "global" : {
+      "disabled-plugins" : [
+        "SynapseBansheeActions",
+        "SynapseDictionaryPlugin",
+        "SynapseHybridSearchPlugin",
+        "SynapseImgUrPlugin",
+        "SynapseLaunchpadPlugin",
+        "SynapsePastebinPlugin",
+        "SynapseZeitgeistRelated",
+        "SynapseSshPlugin",
+        "SynapseSelectionPlugin",
+        "SynapseZeitgeistPlugin"
+      ]
+    }
+  },
+ "plugins" : {
+   "opensearch" : {
+     "use_internal" : false,
+     "search-engines" : [
+       "~/.config/synapse/leo-de-en.xml",
+       "~/.config/synapse/wikipedia-english.xml"
+     ]
+   }
+ }
+}
+
+
